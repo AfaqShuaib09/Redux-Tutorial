@@ -24,9 +24,9 @@ const Products = () => {
   const renderProducts = () => {
     return products.map((product, index) => {
       return (
-        <div className="col-12 col-md-2 col-lg-3 mb-3 justify-content-center">
+        <div className="col-12 col-md-2 col-lg-3 mb-3 justify-content-center" key={product.id}>
           <div className="">
-            <div className="card p-3" key={product.id}>
+            <div className="card p-3">
               <div className="d-flex justify-content-center">
                 <img
                   src={product.image}
