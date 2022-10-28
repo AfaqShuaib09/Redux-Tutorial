@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body {
+  font-family: 'Stylish', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Language: css */
+
+.app-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, red, slateblue);
+}
